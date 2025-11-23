@@ -1,0 +1,40 @@
+# Font configuration
+font-family = "MesloLGS NF"
+font-size = 15
+
+# Theme selection (use a built-in theme or set your own; see note below)
+theme = "One Half Dark"
+# theme = "dark:One Half Dark,light:Violet Light"
+
+keybind = ctrl+q=next_tab
+keybind = ctrl+tab=previous_tab
+keybind = ctrl+t=new_tab
+keybind = ctrl+enter=new_split
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+l=goto_split:right
+keybind = unconsumed:super+c=copy_to_clipboard
+#keybind = ctrl+shift+w=close_split
+#keybind = ctrl+shift+] = next_split
+#keybind = ctrl+shift+[ = previous_split
+#keybind = ctrl+tab=select_split:next
+#keybind = ctrl+shift+tab=select_split:previous
+
+# unbind to work with AI CLI tooling for opt+enter = new-line
+keybind = opt+enter=unbind
+
+quick-terminal-size = 900px,700px
+window-save-state = always
+
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+
+# Optionally, you can specify light and dark themes to auto-switch:
+# theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+
+# Additional customization (optional)
+# font-feature = -liga      # Disables font ligatures
+# background = 282c34       # Override background color (hex, no #)
+# foreground = ffffff       # Override foreground color (hex, no #)
+
